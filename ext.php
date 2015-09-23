@@ -20,8 +20,8 @@ namespace kinerity\topicdescriptions;
 */
 class ext extends \phpbb\extension\base
 {
-	/** @var string Require phpBB 3.1.6-RC1 due to the use of new events */
-	const PHPBB_MIN_VERSION = '3.1.6-RC1';
+	/** @var string Require phpBB 3.1.7 due to the use of new events */
+	const PHPBB_MIN_VERSION = '3.1.7';
 
 	/**
 	* Check whether or not the extension can be enabled.

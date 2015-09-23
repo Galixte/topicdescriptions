@@ -20,7 +20,7 @@
 	"extra": {
 		"display-name": "Topic Descriptions",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.1.6-RC1"
+			"phpbb/phpbb": ">=3.1.7"
 		}
 	}
 }
