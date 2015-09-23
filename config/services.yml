@@ -1,0 +1,11 @@
+services:
+    kinerity.topicdescriptions.listener:
+        class: kinerity\topicdescriptions\event\listener
+        arguments:
+            - @auth
+            - @dbal.conn
+            - @request
+            - @template
+            - @user
+        tags:
+            - { name: event.listener }
